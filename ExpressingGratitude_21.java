@@ -7,7 +7,6 @@ public class ExpressingGratitude_21 {
         Scanner input21 = new Scanner (System.in);
         System.out.println("Input the name of people you want to greet : ");
         String recepientName = input21.nextLine();
-        input21.close();
         return recepientName;
     }
     public static void sayThankyou(){
@@ -17,5 +16,6 @@ public class ExpressingGratitude_21 {
 
     public static void main(String[] args) {
         sayThankyou();
+        input21.close();
     }
 }
